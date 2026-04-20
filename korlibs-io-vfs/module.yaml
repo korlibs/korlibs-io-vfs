@@ -10,14 +10,14 @@ aliases:
   - concurrent: [jvm, android, linuxX64, linuxArm64, tvosArm64, tvosX64, tvosSimulatorArm64, macosX64, macosArm64, iosArm64, iosSimulatorArm64, iosX64, watchosArm64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, mingwX64]
 
 dependencies:
-  - com.soywiz:korlibs-io-fs:6.0.0
-  - com.soywiz:korlibs-concurrent:6.0.0
-  - com.soywiz:korlibs-platform:6.0.0: exported
-  - com.soywiz:korlibs-io-stream:6.0.0: exported
-  - com.soywiz:korlibs-time-core:6.0.0: exported
-  - com.soywiz:korlibs-string:6.0.0: exported
-  - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0-RC: exported
+  - org.korge:korlibs-io-fs:6.1.0
+  - org.korge:korlibs-concurrent:6.1.0
+  - org.korge:korlibs-platform:6.1.0: exported
+  - org.korge:korlibs-io-stream:6.1.0: exported
+  - org.korge:korlibs-time-core:6.1.0: exported
+  - org.korge:korlibs-string:6.1.0: exported
+  - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2: exported
 
 test-dependencies:
-  - org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0-RC
-  - com.soywiz:korlibs-time:6.0.0
+  - org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2
+  - org.korge:korlibs-time:6.1.0
